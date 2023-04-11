@@ -1,4 +1,62 @@
-* {
+*{
     padding: 0;
     margin: 0;
+    /* border: 1px;
+    border: 1px solid red; */
 }
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+img{
+    margin-top: 7px;
+    width: 315px;
+    border-radius: 1rem;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: 12px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+    margin: 8px 35px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+ }
+ 
